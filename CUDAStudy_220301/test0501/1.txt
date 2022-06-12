@@ -1,0 +1,6 @@
+total 4
+-rw-rw-r-- 1 work work  0 5月   1 17:04 1.txt
+-rwxrwxrwx 1 work work 91 5月   1 17:02 num.sh
+total 8
+-rw-rw-r-- 1 work work 103 5月   1 17:04 1.txt
+-rwxrwxrwx 1 work work  91 5月   1 17:02 num.sh

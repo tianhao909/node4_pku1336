@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/work/fth/CUDAStudy_220301'
+echo xxxxxxxxxxxxxx
+echo helloworld
+echo helloworld
+echo "helloworld"
+make: Leaving directory '/home/work/fth/CUDAStudy_220301'
+ 

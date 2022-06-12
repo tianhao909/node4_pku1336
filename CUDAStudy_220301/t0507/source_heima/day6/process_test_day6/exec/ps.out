@@ -1,0 +1,334 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:28 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    3 ?        I<     0:00 [rcu_gp]
+    4 ?        I<     0:00 [rcu_par_gp]
+    6 ?        I<     0:00 [kworker/0:0H]
+    8 ?        I<     0:00 [mm_percpu_wq]
+    9 ?        S      0:01 [ksoftirqd/0]
+   10 ?        I     10:58 [rcu_sched]
+   11 ?        S      0:01 [migration/0]
+   12 ?        S      0:00 [idle_inject/0]
+   14 ?        S      0:00 [cpuhp/0]
+   15 ?        S      0:00 [cpuhp/1]
+   16 ?        S      0:00 [idle_inject/1]
+   17 ?        S      0:01 [migration/1]
+   18 ?        S      0:00 [ksoftirqd/1]
+   20 ?        I<     0:00 [kworker/1:0H-kb]
+   21 ?        S      0:00 [cpuhp/2]
+   22 ?        S      0:00 [idle_inject/2]
+   23 ?        S      0:01 [migration/2]
+   24 ?        S      0:00 [ksoftirqd/2]
+   26 ?        I<     0:00 [kworker/2:0H-kb]
+   27 ?        S      0:00 [cpuhp/3]
+   28 ?        S      0:00 [idle_inject/3]
+   29 ?        S      0:01 [migration/3]
+   30 ?        S      0:00 [ksoftirqd/3]
+   32 ?        I<     0:00 [kworker/3:0H-kb]
+   33 ?        S      0:00 [cpuhp/4]
+   34 ?        S      0:00 [idle_inject/4]
+   35 ?        S      0:01 [migration/4]
+   36 ?        S      0:00 [ksoftirqd/4]
+   38 ?        I<     0:00 [kworker/4:0H-kb]
+   39 ?        S      0:00 [cpuhp/5]
+   40 ?        S      0:00 [idle_inject/5]
+   41 ?        S      0:02 [migration/5]
+   42 ?        S      0:00 [ksoftirqd/5]
+   44 ?        I<     0:00 [kworker/5:0H-kb]
+   45 ?        S      0:00 [cpuhp/6]
+   46 ?        S      0:00 [idle_inject/6]
+   47 ?        S      0:01 [migration/6]
+   48 ?        S      0:00 [ksoftirqd/6]
+   50 ?        I<     0:00 [kworker/6:0H]
+   51 ?        S      0:00 [cpuhp/7]
+   52 ?        S      0:00 [idle_inject/7]
+   53 ?        S      0:02 [migration/7]
+   54 ?        S      0:00 [ksoftirqd/7]
+   56 ?        I<     0:00 [kworker/7:0H-kb]
+   57 ?        S      0:00 [cpuhp/8]
+   58 ?        S      0:00 [idle_inject/8]
+   59 ?        S      0:02 [migration/8]
+   60 ?        S      0:00 [ksoftirqd/8]
+   62 ?        I<     0:00 [kworker/8:0H-kb]
+   63 ?        S      0:00 [cpuhp/9]
+   64 ?        S      0:00 [idle_inject/9]
+   65 ?        S      0:02 [migration/9]
+   66 ?        S      0:00 [ksoftirqd/9]
+   68 ?        I<     0:00 [kworker/9:0H-kb]
+   69 ?        S      0:00 [cpuhp/10]
+   70 ?        S      0:00 [idle_inject/10]
+   71 ?        S      0:03 [migration/10]
+   72 ?        S      0:21 [ksoftirqd/10]
+   74 ?        I<     0:00 [kworker/10:0H-k]
+   75 ?        S      0:00 [cpuhp/11]
+   76 ?        S      0:00 [idle_inject/11]
+   77 ?        S      0:03 [migration/11]
+   78 ?        S      0:00 [ksoftirqd/11]
+   80 ?        I<     0:00 [kworker/11:0H-k]
+   81 ?        S      0:00 [cpuhp/12]
+   82 ?        S      0:00 [idle_inject/12]
+   83 ?        S      0:02 [migration/12]
+   84 ?        S      0:00 [ksoftirqd/12]
+   86 ?        I<     0:00 [kworker/12:0H-k]
+   87 ?        S      0:00 [cpuhp/13]
+   88 ?        S      0:00 [idle_inject/13]
+   89 ?        S      0:02 [migration/13]
+   90 ?        S      0:00 [ksoftirqd/13]
+   92 ?        I<     0:00 [kworker/13:0H]
+   93 ?        S      0:00 [cpuhp/14]
+   94 ?        S      0:00 [idle_inject/14]
+   95 ?        S      0:02 [migration/14]
+   96 ?        S      0:00 [ksoftirqd/14]
+   98 ?        I<     0:00 [kworker/14:0H-k]
+   99 ?        S      0:00 [cpuhp/15]
+  100 ?        S      0:00 [idle_inject/15]
+  101 ?        S      0:02 [migration/15]
+  102 ?        S      0:00 [ksoftirqd/15]
+  104 ?        I<     0:00 [kworker/15:0H-k]
+  105 ?        S      0:00 [cpuhp/16]
+  106 ?        S      0:00 [idle_inject/16]
+  107 ?        S      0:01 [migration/16]
+  108 ?        S      0:00 [ksoftirqd/16]
+  110 ?        I<     0:00 [kworker/16:0H-k]
+  111 ?        S      0:00 [cpuhp/17]
+  112 ?        S      0:00 [idle_inject/17]
+  113 ?        S      0:02 [migration/17]
+  114 ?        S      0:00 [ksoftirqd/17]
+  116 ?        I<     0:00 [kworker/17:0H-k]
+  117 ?        S      0:00 [cpuhp/18]
+  118 ?        S      0:00 [idle_inject/18]
+  119 ?        S      0:02 [migration/18]
+  120 ?        S      0:00 [ksoftirqd/18]
+  122 ?        I<     0:00 [kworker/18:0H]
+  123 ?        S      0:00 [cpuhp/19]
+  124 ?        S      0:00 [idle_inject/19]
+  125 ?        S      0:01 [migration/19]
+  126 ?        S      0:00 [ksoftirqd/19]
+  128 ?        I<     0:00 [kworker/19:0H-k]
+  129 ?        S      1:22 [kdevtmpfs]
+  130 ?        I<     0:00 [netns]
+  131 ?        S      0:00 [rcu_tasks_kthre]
+  132 ?        S      0:00 [kauditd]
+  137 ?        S      0:01 [khungtaskd]
+  138 ?        S      0:00 [oom_reaper]
+  139 ?        I<     0:00 [writeback]
+  140 ?        S      0:00 [kcompactd0]
+  141 ?        SN     0:00 [ksmd]
+  142 ?        SN     0:00 [khugepaged]
+  143 ?        I<     0:00 [crypto]
+  144 ?        I<     0:00 [kintegrityd]
+  145 ?        I<     0:00 [kblockd]
+  147 ?        I<     0:00 [tpm_dev_wq]
+  148 ?        I<     0:00 [ata_sff]
+  149 ?        I<     0:00 [md]
+  150 ?        I<     0:00 [edac-poller]
+  152 ?        I<     0:00 [devfreq_wq]
+  153 ?        S      0:00 [watchdogd]
+  156 ?        S      0:00 [kswapd0]
+  157 ?        I<     0:00 [kworker/u41:0]
+  158 ?        S      0:00 [ecryptfs-kthrea]
+  193 ?        I      0:11 [kworker/19:1-mm]
+  258 ?        I<     0:00 [kthrotld]
+  259 ?        I<     0:00 [acpi_thermal_pm]
+  261 ?        I<     0:00 [ipv6_addrconf]
+  273 ?        I<     0:00 [kstrp]
+  295 ?        I<     0:00 [charger_manager]
+  386 ?        I<     0:00 [nvme-wq]
+  387 ?        I<     0:00 [nvme-reset-wq]
+  388 ?        I<     0:00 [nvme-delete-wq]
+  389 ?        S      0:00 [scsi_eh_0]
+  390 ?        I<     0:00 [scsi_tmf_0]
+  391 ?        S      0:00 [scsi_eh_1]
+  392 ?        I<     0:00 [scsi_tmf_1]
+  393 ?        S      0:00 [scsi_eh_2]
+  394 ?        I<     0:00 [scsi_tmf_2]
+  395 ?        S      0:00 [scsi_eh_3]
+  396 ?        I<     0:00 [scsi_tmf_3]
+  397 ?        S      0:00 [scsi_eh_4]
+  398 ?        I<     0:00 [scsi_tmf_4]
+  399 ?        S      0:00 [scsi_eh_5]
+  400 ?        I<     0:00 [scsi_tmf_5]
+  401 ?        S      0:00 [scsi_eh_6]
+  402 ?        I<     0:00 [scsi_tmf_6]
+  403 ?        S      0:00 [scsi_eh_7]
+  404 ?        I<     0:00 [scsi_tmf_7]
+  414 ?        I<     0:01 [kworker/12:1H-k]
+  416 ?        I<     0:01 [kworker/19:1H-k]
+  435 ?        I<     0:01 [kworker/4:1H-kb]
+  437 ?        I<     0:01 [kworker/7:1H-kb]
+  438 ?        I<     0:00 [kworker/2:1H-kb]
+  439 ?        S      0:36 [jbd2/sda3-8]
+  440 ?        I<     0:00 [ext4-rsv-conver]
+  442 ?        I<     0:00 [kworker/5:1H-kb]
+  447 ?        I<     0:00 [kworker/1:1H-kb]
+  451 ?        I<     0:00 [kworker/10:1H-k]
+  453 ?        I<     0:01 [kworker/8:1H-kb]
+  456 ?        I<     0:00 [kworker/3:1H-kb]
+  458 ?        I<     0:01 [kworker/9:1H-kb]
+  459 ?        I<     0:01 [kworker/6:1H-kb]
+  469 ?        I      0:09 [kworker/9:2-eve]
+  472 ?        I<     0:01 [kworker/18:1H-k]
+  473 ?        I<     0:01 [kworker/13:1H-k]
+  484 ?        S<s   11:16 /lib/systemd/systemd-journald
+  494 ?        I<     0:00 [kworker/0:1H-kb]
+  506 ?        Ss    36:35 /lib/systemd/systemd-udevd
+  511 ?        S<     0:00 [loop0]
+  525 ?        S<     0:00 [loop1]
+  526 ?        I<     0:08 [kworker/14:1H-k]
+  527 ?        I<     0:01 [kworker/17:1H-k]
+  528 ?        S<     0:00 [loop2]
+  529 ?        S<     0:00 [loop3]
+  530 ?        S<     0:00 [loop4]
+  532 ?        S<     0:00 [loop5]
+  533 ?        S<     0:00 [loop6]
+  534 ?        S<     0:00 [loop7]
+  535 ?        S<     0:00 [loop8]
+  536 ?        S<     0:00 [loop9]
+  537 ?        S<     0:00 [loop10]
+  538 ?        S<     0:00 [loop11]
+  539 ?        S<     0:00 [loop12]
+  540 ?        S<     0:00 [loop13]
+  541 ?        I<     0:01 [kworker/16:1H-k]
+  542 ?        S<     0:00 [loop14]
+  543 ?        S<     0:00 [loop15]
+  544 ?        S<     0:00 [loop16]
+  575 ?        I<     0:02 [kworker/15:1H-k]
+  595 ?        I<     0:00 [kworker/11:1H-k]
+  610 ?        S      0:00 [irq/76-mei_me]
+  711 ?        I<     0:00 [nfit]
+  712 ?        S      0:00 [nv_queue]
+  713 ?        S      0:00 [nv_queue]
+  716 ?        S      0:00 [nvidia-modeset/]
+  717 ?        S      0:00 [nvidia-modeset/]
+  730 ?        S      0:00 [UVM global queu]
+  731 ?        S      0:00 [UVM deferred re]
+  733 ?        S      0:00 [UVM Tools Event]
+  756 ?        S      0:00 [jbd2/sda5-8]
+  757 ?        I<     0:00 [ext4-rsv-conver]
+ 1072 ?        Ss     0:02 /lib/systemd/systemd-resolved
+ 1077 ?        Ssl    0:01 /lib/systemd/systemd-timesyncd
+ 1134 ?        Ss     4:48 /lib/systemd/systemd-logind
+ 1136 ?        Ssl    0:17 /usr/lib/udisks2/udisksd
+ 1141 ?        Ssl    1:50 /usr/lib/accountsservice/accounts-daemon
+ 1146 ?        Ssl    1:38 /usr/sbin/irqbalance --foreground
+ 1150 ?        Ssl    5:55 /usr/sbin/ModemManager --filter-policy=strict
+ 1156 ?        Ssl    0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+ 1158 ?        Ss     2:06 avahi-daemon: running [giga-node4.local]
+ 1159 ?        Ssl    3:29 /usr/sbin/rsyslogd -n
+ 1167 ?        Ss     0:00 sshd: work [priv]
+ 1218 ?        S      0:00 sshd: work@pts/0
+ 1219 pts/0    Ss     0:00 -bash
+ 1226 ?        Ss     0:01 /usr/sbin/cron -f
+ 1249 ?        Ss     1:23 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 1274 ?        Ss     0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ 1323 ?        S      0:00 avahi-daemon: chroot helper
+ 1328 ?        Ss     0:00 /usr/sbin/cupsd -l
+ 1330 ?        Ssl    0:05 /usr/sbin/cups-browsed
+ 1346 ?        I      0:00 [kworker/15:0-cg]
+ 1416 ?        Ss     0:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+ 1423 ?        Ssl    0:51 /usr/lib/policykit-1/polkitd --no-debug
+ 1495 ?        Ssl    0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ 1517 ?        Ssl   37:36 /usr/bin/mongod --unixSocketPrefix=/run/mongodb --config /etc/mongodb.conf
+ 1518 ?        Ssl    4:40 /usr/bin/containerd
+ 1573 tty1     Ss     0:00 /bin/login -p --
+ 1599 ?        Ss     0:00 /usr/sbin/sshd -D
+ 1680 ?        Ssl    8:54 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+ 1915 ?        S      0:00 bpfilter_umh
+ 2143 ?        Ss     0:00 /lib/systemd/systemd --user
+ 2144 ?        S      0:00 (sd-pam)
+ 2171 tty1     S      0:00 -bash
+ 2509 tty1     S+     0:00 ssh 172.17.1.157
+ 2510 ?        Ss     0:00 sshd: work [priv]
+ 2555 ?        S      0:00 sshd: work@pts/1
+ 2556 pts/1    Ss+    0:00 -bash
+ 2943 ?        I      0:14 [kworker/7:0-eve]
+ 3786 ?        I      0:00 [kworker/7:1-cgr]
+ 3845 pts/0    S+     0:00 man 3 exec
+ 3855 pts/0    S+     0:00 pager
+ 4105 ?        I      0:06 [kworker/12:0-ev]
+ 4136 ?        I      0:07 [kworker/13:0-ev]
+ 4275 ?        I      0:07 [kworker/14:1-mm]
+ 4304 ?        I      0:11 [kworker/11:0-mm]
+ 4953 ?        I      0:00 [kworker/17:0-cg]
+ 4954 ?        I      0:00 [kworker/3:0-mm_]
+ 5159 ?        I      0:02 [kworker/18:0-mm]
+ 5270 ?        I      0:21 [kworker/16:2-ev]
+ 6404 ?        I      0:00 [kworker/u40:3-e]
+ 7293 ?        Ss     0:00 sshd: work [priv]
+ 7342 ?        S      0:00 sshd: work@notty
+ 7343 ?        Ss     0:00 /usr/lib/openssh/sftp-server
+ 7344 ?        Ss     0:00 /usr/lib/openssh/sftp-server
+ 7345 ?        Ss     0:00 /usr/lib/openssh/sftp-server
+ 7665 ?        I      0:05 [kworker/6:1-eve]
+ 7918 pts/7    Ss     0:00 /bin/bash
+ 8458 ?        I      0:03 [kworker/3:1-eve]
+ 9554 ?        I      0:00 [kworker/13:1]
+11325 ?        I      0:03 [kworker/2:1-eve]
+12280 ?        I      0:00 [kworker/u40:0-e]
+12512 ?        I      0:00 [kworker/10:0-ev]
+12791 ?        Sl     0:00 /home/work/.vscode-server/extensions/ms-vscode.cpptools-1.9.8/bin/cpptools-srv 21930 {A2ADAEE1-A983-413E-9EB9-B116B0A0B75F}
+13515 ?        Ss     0:00 sshd: work [priv]
+13560 ?        S      0:00 sshd: work@notty
+13561 ?        Ss     0:00 bash
+13634 ?        I      0:00 [kworker/3:2-cgr]
+13642 ?        I      0:00 [kworker/17:2-ev]
+14385 ?        S      0:00 sleep 180
+14423 ?        I      0:00 [kworker/10:1-mm]
+14567 ?        S      0:00 sleep 180
+14583 ?        S      0:00 sleep 180
+14707 ?        Sl     0:00 /home/work/.vscode-server/extensions/ms-vscode.cpptools-1.9.8/bin/cpptools-srv 21930 {05488748-6000-4F74-8105-402C79DA79DD}
+14790 ?        S      0:00 sleep 180
+14818 ?        S      0:00 sleep 180
+14853 ?        Ss     0:00 sshd: work [priv]
+14855 ?        Ss     0:00 sshd: work [priv]
+14936 ?        S      0:00 sshd: work@pts/11
+14944 ?        S      0:00 sshd: work@pts/12
+14945 pts/11   Ss+    0:00 -bash
+14950 pts/12   Ss+    0:00 -bash
+14973 ?        S      0:00 sleep 180
+15178 pts/7    R+     0:00 ps ax
+15506 ?        I      0:04 [kworker/1:2-mm_]
+15613 ?        I      0:00 [kworker/11:2-cg]
+15621 ?        I      0:00 [kworker/6:0]
+17994 ?        I      0:00 [kworker/14:2-cg]
+18008 ?        I      0:00 [kworker/1:0]
+18169 ?        I      0:06 [kworker/15:1-mm]
+18915 ?        Ss     0:00 sshd: work [priv]
+18960 ?        S      0:00 sshd: work@notty
+18961 ?        Ss     0:00 bash
+19061 ?        Ss     0:00 sshd: work [priv]
+19106 ?        S      0:00 sshd: work@notty
+19107 ?        Ss     0:00 bash
+20424 ?        I      0:00 [kworker/5:1-cgr]
+20440 ?        I      0:00 [kworker/4:0-cgr]
+20723 ?        I      0:00 [kworker/8:1]
+20815 ?        I      0:00 [kworker/9:0-eve]
+21551 ?        Ss     0:00 sshd: work [priv]
+21552 ?        I      0:10 [kworker/5:0-mm_]
+21597 ?        S      0:00 sshd: work@notty
+21598 ?        Ss     0:00 bash
+21647 ?        S      0:00 sh /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/work/.vscode-server/.f80445acd5a3dadef24aa209168452a3d97cc326.token
+21655 ?        Sl     0:33 /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/work/.vscode-server/.f80445acd5a3dadef24aa209168452a3d97cc326.token
+21694 ?        Sl     0:28 /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/bootstrap-fork --type=ptyHost
+21771 ?        Ss     0:00 sshd: work [priv]
+21821 ?        S      0:04 sshd: work@notty
+21822 ?        Ss     0:00 bash
+21874 ?        Sl    24:54 /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/vs/server/node/uriTransformer.js --useHostProxy=false
+21881 ?        Sl     0:01 /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/work/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/bootstrap-fork --type=fileWatcher
+21930 ?        Sl     0:17 /home/work/.vscode-server/extensions/ms-vscode.cpptools-1.9.8/bin/cpptools
+22033 pts/5    Ss+    0:00 /bin/bash
+22397 pts/6    Ss+    0:00 /bin/bash
+22638 ?        I      0:00 [kworker/18:2]
+23146 ?        I      0:00 [kworker/16:0]
+24276 ?        I      0:00 [kworker/2:2]
+24907 ?        I      0:18 [kworker/0:0-eve]
+25498 ?        I      0:00 [kworker/12:2]
+26154 ?        I      0:00 [kworker/17:1-cg]
+26405 ?        D      0:03 [kworker/10:2+us]
+26594 ?        I      0:00 [kworker/4:2-mm_]
+27748 ?        Ss     0:00 sshd: work [priv]
+27798 ?        S      0:00 sshd: work@notty
+27799 ?        Ss     0:00 bash
+29874 ?        I      0:00 [kworker/19:2]
+31385 ?        I      0:00 [kworker/0:1]
+32057 ?        I      0:10 [kworker/8:0-mm_]

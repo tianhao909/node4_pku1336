@@ -1,0 +1,16 @@
+src = $(wildcard *.c)
+targets = $(patsubst %.c, %, $(src))
+
+CC = gcc
+CFLAGS = -g -Wall -lpthread 
+#CFLAGS = -m32 -g -Wall -lpthread 
+
+all:$(targets)
+
+$(targets):%:%.c
+	$(CC) $< -o $@ $(CFLAGS)
+
+.PHONY:clean all
+clean:
+	-rm -rf $(targets) 
+

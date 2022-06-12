@@ -1,0 +1,46 @@
+# hello: *.o
+# 	gcc *.o -o hello
+# *.o : *.c
+# 	gcc *.c -C -o *.o 
+#ALL:hello
+
+ALL=a.out
+src = $(wildcard *.c)
+obj = $(patsubst %.c, %.o, $(src))
+$(ALL):$(obj)
+	gcc $^ -o $@
+
+hello.o: hello.c
+	gcc -c $< -o $@
+add.o : add.c
+	gcc -c $< -o $@
+sub.o : sub.c 
+	gcc -c $< -o $@
+div1.o : div1.c 
+	gcc -c $< -o $@ 
+
+
+clean: 
+	-rm $(obj) $(ALL)
+#rm *.o hello
+# src = $(wildcard *.c)
+# obj = $(patsubst %.c, %.o, $(src))
+#HELLO_O=hello.o add.o sub.o div1.o
+#HELLO_C=hello.c add.c sub.c div1.c
+
+
+#hello: hello.o add.o sub.o div1.o
+# hello: $(HELLO_O)
+# 	gcc $^ -o hello
+
+# $(HELLO_O): $(HELLO_C)
+# 	gcc -c $^ -o $@
+
+# hello.o: hello.c
+# 	gcc -c hello.c -o hello.o
+# add.o : add.c
+# 	gcc -c add.c -o add.o
+# sub.o : sub.c 
+# 	gcc -c sub.c -o sub.o 
+# div1.o : div1.c 
+# 	gcc -c div1.c -o div1.o 

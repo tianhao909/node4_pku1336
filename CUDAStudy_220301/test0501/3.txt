@@ -1,0 +1,7 @@
+hello
+total 20
+-rw-rw-r-- 1 work work 208 5月   1 17:04 1.txt
+-rw-rw-r-- 1 work work 258 5月   1 17:40 2.txt
+-rw-rw-r-- 1 work work   6 5月   1 17:49 3.txt
+-rwxrwxrwx 1 work work 120 5月   1 17:49 file.sh
+-rwxrwxrwx 1 work work  91 5月   1 17:02 num.sh
